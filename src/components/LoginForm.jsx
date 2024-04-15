@@ -1,11 +1,10 @@
+/* eslint-disable react/no-unknown-property */
 import { useState } from 'react';
 import axios from 'axios';
 
 const projectID = import.meta.env.VITE_CHAT_ENGINE_PROJECT_ID;
 
-const LoginForm = () => {
-  console.log(projectID);
-
+const Modal = () => {
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
@@ -67,4 +66,4 @@ const LoginForm = () => {
   );
 };
 
-export default LoginForm;
+export default Modal;
