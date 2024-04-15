@@ -3,7 +3,7 @@ import { ChatEngine, ChatFeed } from 'react-chat-engine';
 import LoginForm from './components/LoginForm';
 import { UserOutlined } from '@ant-design/icons';
 
-const projectID = import.meta.env.VITE_CHAT_ENGINE_PROJECT_ID;
+const projectID = 'fb4437b8-6172-40c9-b248-4901c6aef31c';
 
 const App = () => {
   const [loggedIn, setLoggedIn] = useState(false);

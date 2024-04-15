@@ -2,7 +2,7 @@
 import { useState } from 'react';
 import axios from 'axios';
 
-const projectID = import.meta.env.VITE_CHAT_ENGINE_PROJECT_ID;
+const projectID = 'fb4437b8-6172-40c9-b248-4901c6aef31c';
 
 const Modal = () => {
   const [username, setUsername] = useState('');
